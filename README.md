@@ -6,7 +6,7 @@
 [![Chrome](https://img.shields.io/badge/Chrome-120%2B-green.svg)](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-blue.svg)](LICENSE)
 
-![TabAutopilot](public/store/marquee-1400x560.png)
+![TabAutopilot](/marquee-1400x560.png)
 
 ---
 
