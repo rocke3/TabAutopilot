@@ -10,7 +10,7 @@
 
 ## Install
 
-**[Get it from the Chrome Web Store](https://chrome.google.com/webstore)** _(Coming soon)_
+**[Get it from the Chrome Web Store](https://chromewebstore.google.com/detail/tabautopilot-smart-tab-ma/nplekjmldglpfcdiechmgahoefhfheom)**
 
 Requires **Chrome 120+**. AI features require **Chrome 127+** (falls back to rule-based grouping on older versions).
 
