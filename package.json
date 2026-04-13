@@ -1,0 +1,33 @@
+{
+  "name": "tab-autopilot",
+  "version": "0.5.0",
+  "description": "Smart AI tab manager: auto-groups by topic, snoozes tabs, hibernates inactive ones & removes duplicates. Private, on-device AI.",
+  "author": {
+    "name": "Mamunur Rashid",
+    "url": "https://mdrashid.com/"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/rocke3/TabAutopilot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocke3/TabAutopilot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rocke3/TabAutopilot/issues"
+  },
+  "keywords": [
+    "chrome-extension",
+    "tab-manager",
+    "tab-groups",
+    "ai",
+    "gemini-nano",
+    "productivity",
+    "tab-snooze",
+    "workspaces",
+    "duplicate-tabs",
+    "tab-hibernation",
+    "browser-extension"
+  ],
+  "type": "module",
+
+}
