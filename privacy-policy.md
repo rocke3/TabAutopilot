@@ -75,4 +75,4 @@ If we change this policy, we'll update the date above and note it in the extensi
 Questions about privacy? Reach out:
 
 - GitHub Issues: [github.com/rocke3/TabAutopilot/issues](https://github.com/rocke3/TabAutopilot/issues)
-- Email: admin@palmy.io
+- Email: mail@mdrashid.com
