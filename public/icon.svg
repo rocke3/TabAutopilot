@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bgD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="128" height="128" rx="28" fill="url(#bgD)"/>
+
+  <!-- Three horizontal tab bars — stacked, color-coded -->
+  <rect x="20" y="22" width="88" height="22" rx="11" fill="#f472b6" opacity="0.9"/>
+  <rect x="20" y="52" width="88" height="22" rx="11" fill="#34d399" opacity="0.9"/>
+  <rect x="20" y="82" width="66" height="22" rx="11" fill="#60a5fa" opacity="0.9"/>
+
+  <!-- AI spark -->
+  <g transform="translate(100, 93)">
+    <path d="M0 -15 L3.5 -3.5 L15 0 L3.5 3.5 L0 15 L-3.5 3.5 L-15 0 L-3.5 -3.5 Z" fill="#facc15"/>
+    <circle cx="0" cy="0" r="4" fill="#fef9c3"/>
+  </g>
+</svg>
