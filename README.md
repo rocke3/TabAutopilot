@@ -105,7 +105,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 ## Auto group tabs by topic (AI tab grouping)
 
-![Smart tab grouping — auto group Chrome tabs by topic](/marketing/screenshots/Screenshot1.png)
+![Smart tab grouping — auto group Chrome tabs by topic](public/Screenshot1.png)
 
 - **Smart Group** — one click to auto-group all open tabs by topic using AI
 - **AI-powered naming** — tab groups get meaningful names like "Vue Dev" instead of "github"
@@ -120,7 +120,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 ## Domain rules — control how tabs are grouped
 
-![Domain rules editor for tab grouping](/marketing/screenshots/Screenshot3.png)
+![Domain rules editor for tab grouping](public/Screenshot3.png)
 
 - **250+ built-in rules** — curated domain-to-category mappings covering Development, Social, Work, Shopping, News, Entertainment, Finance, Education, Research, Reference, Travel, and Health
 - **Editable from the sidepanel** — add, edit, or delete any rule from the Rules tab
@@ -192,7 +192,7 @@ Each Chrome tab eats 50–300 MB of RAM. TabAutopilot works as a modern tab susp
 
 ## Settings
 
-![TabAutopilot settings](/marketing/screenshots/Screenshot2.png)
+![TabAutopilot settings](public/Screenshot2.png)
 
 - **Auto-group toggle** — enable/disable automatic grouping on tab creation
 - **Min tabs per group** — set minimum (2, 3, 4, or 5)
@@ -208,7 +208,7 @@ Each Chrome tab eats 50–300 MB of RAM. TabAutopilot works as a modern tab susp
 
 ## Everything at a glance
 
-![All TabAutopilot features](/marketing/screenshots/Screenshot5.png)
+![All TabAutopilot features](public/Screenshot5.png)
 
 ---
 
