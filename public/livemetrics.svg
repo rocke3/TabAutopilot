@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LiveMetrics app icon">
+  <defs>
+    <linearGradient id="lm-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="55%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#lm-bg)"/>
+  <!-- live pulse / ECG waveform -->
+  <path d="M10 32 L21 32 L25.5 32 L29.2 20.8 L34.2 44.4 L38.6 18.4 L42.2 32 L54 32"
+        fill="none" stroke="#FFFFFF" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- emerald endpoint -->
+  <circle cx="54" cy="32" r="2.3" fill="#34D399"/>
+</svg>
