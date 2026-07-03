@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="public/icons/icon-128.png" width="110" alt="TabAutopilot — AI smart tab manager for Chrome" />
+<img src="public/icon.svg" width="110" alt="TabAutopilot — AI smart tab manager for Chrome" />
 
 # TabAutopilot
 
