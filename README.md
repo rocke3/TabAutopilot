@@ -14,6 +14,7 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 [![Version](https://img.shields.io/badge/version-0.7.1-6366f1?style=flat-square)](https://github.com/rocke3/TabAutopilot/releases)
 [![Chrome](https://img.shields.io/badge/Chrome-120%2B-34a853?style=flat-square&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom)
+[![Chromium](https://img.shields.io/badge/also-Edge_·_Brave_·_Opera_·_Vivaldi-4285F4?style=flat-square&logo=chromium&logoColor=white)](#browser-compatibility)
 [![Rating](https://img.shields.io/badge/rating-★_5.0%2F5-f59e0b?style=flat-square)](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom)
 [![Users](https://img.shields.io/badge/privacy-100%25_on--device-8b5cf6?style=flat-square)](#privacy)
 [![License](https://img.shields.io/badge/license-All_Rights_Reserved-64748b?style=flat-square)](LICENSE)
@@ -26,7 +27,7 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 <br/><br/>
 
-<img src="public/launch-hero.gif" width="720" alt="TabAutopilot in action — auto-grouping Chrome tabs by topic" />
+<img src="public/launch-hero.gif" width="100%" alt="TabAutopilot in action — auto-grouping Chrome tabs by topic" />
 
 <br/><br/>
 
@@ -40,7 +41,26 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 **[Add TabAutopilot to Chrome — free on the Chrome Web Store](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom)**
 
-Requires **Chrome 120+**. AI features require **Chrome 127+** (falls back to rule-based grouping on older versions).
+Requires **Chrome 120+**. **On-device AI grouping (Gemini Nano) works on Google Chrome only** and needs **Chrome 127+** — on older Chrome versions and on other browsers, TabAutopilot falls back to its 350+ rule engine, so grouping still works.
+
+---
+
+## Browser compatibility
+
+TabAutopilot is built on Manifest V3 and runs on any **Chromium-based browser** — the exact same build, no separate version needed. On-device AI grouping needs Chrome's built-in Gemini Nano; on Chromium browsers that don't ship it yet, grouping automatically falls back to the 350+ rule engine, so every feature still works.
+
+| Browser | Status | AI grouping | How to install |
+| ------- | ------ | ----------- | -------------- |
+| **Google Chrome** 120+ | ✅ Fully supported | ✅ Gemini Nano | [Chrome Web Store](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom) |
+| **Microsoft Edge** 120+ | ✅ Fully supported | ⚠️ Rule-based fallback | Install from the Chrome Web Store |
+| **Brave** | ✅ Fully supported | ⚠️ Rule-based fallback | Install from the Chrome Web Store |
+| **Opera** | ✅ Fully supported | ⚠️ Rule-based fallback | Enable Chrome Web Store extensions, then install |
+| **Vivaldi** | ✅ Fully supported | ⚠️ Rule-based fallback | Install from the Chrome Web Store |
+| **Arc / other Chromium** | ✅ Fully supported | ⚠️ Rule-based fallback | Install from the Chrome Web Store |
+| **Firefox** | 🚧 Not yet | — | Planned — needs a separate build (no native tab-groups API) |
+| **Safari** | ❌ No | — | Different extension platform (WebKit) |
+
+> **AI grouping** uses Chrome's on-device Gemini Nano, currently Chrome-only. On other Chromium browsers the extension detects this and uses its local rule engine instead — no setup, no crash, grouping still works. **Firefox** support is on the roadmap but requires a dedicated build: Firefox has no native tab-groups API, and uses `sidebar_action` instead of the side panel.
 
 ---
 
@@ -94,7 +114,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 | Feature                    | What it does                                                      |
 | -------------------------- | ----------------------------------------------------------------- |
-| **AI Tab Grouping**        | Auto-groups tabs by topic using on-device AI — not just by domain |
+| **AI Tab Grouping**        | Auto-groups tabs by topic using on-device AI (Chrome only; rule-based fallback elsewhere) — not just by domain |
 | **Instant Tab Joining**    | New tabs snap into matching tab groups automatically, no waiting  |
 | **Domain Rules Editor**    | 350+ built-in rules you can add to, edit, filter, sort, or reset  |
 | **Auto-Learning (opt-in)** | Learns from your manual moves and gets smarter over time          |
@@ -121,6 +141,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 - **No duplicate groups** — if a group already exists, new tabs merge into it
 - **Auto-group on new tabs** — optional setting to organize tabs as you browse
 - **Friendly names for 45+ sites** — Google Translate shows as "Translate", not "translate.google"
+- **AI is Chrome-only** — the on-device Gemini Nano model runs on Google Chrome; on Edge, Brave, Opera, and Vivaldi the 350+ rule engine handles grouping instead
 
 ---
 
@@ -338,6 +359,9 @@ No. Categorization runs entirely on your device — Chrome's built-in Gemini Nan
 **Does it work without AI?**
 Yes. On Chrome versions without Gemini Nano (or unsupported hardware), TabAutopilot falls back to its rule-based engine with 350+ domain rules — grouping still works out of the box.
 
+**Does it work on Edge, Brave, Opera, or Vivaldi?**
+Yes — the same build runs on any Chromium-based browser. Install it from the Chrome Web Store (on Opera, enable Chrome Web Store extensions first). AI grouping via Gemini Nano is currently Chrome-only, so on other Chromium browsers the extension uses its local rule engine instead — everything still works. See [Browser compatibility](#browser-compatibility). Firefox and Safari aren't supported yet.
+
 **How does the tab suspender differ from Chrome's Memory Saver?**
 Chrome's Memory Saver decides for you. TabAutopilot lets you set the timeout (15 min–2 hr), never touches pinned or audio-playing tabs, shows how much memory you saved, and pairs hibernation with grouping, snooze, and sessions.
 
@@ -368,7 +392,7 @@ Found a bug? Have a feature request?
 
 Please include:
 
-- Chrome version (`chrome://version`)
+- Browser and version (e.g. `chrome://version`)
 - Steps to reproduce the problem
 - Screenshot if applicable
 
