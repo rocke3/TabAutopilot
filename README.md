@@ -30,7 +30,7 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 <br/><br/>
 
-`Smart Grouping` · `Tab Snooze` · `Hibernation` · `350+ Rules` · `Auto-Learning` · `Workspaces` · `Usage Stats` · `Clear Site Data` · `Free`
+`Smart Grouping` · `Tab Snooze` · `Hibernation` · `350+ Rules` · `Custom Categories` · `Auto-Learning` · `Workspaces` · `Usage Stats` · `Clear Site Data` · `Free`
 
 </div>
 
@@ -130,6 +130,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 - **350+ built-in rules** — curated domain-to-category mappings covering Development, Social, Work, Shopping, News, Entertainment, Finance, Education, Research, Reference, Travel, and Health
 - **Editable from the sidepanel** — add, edit, or delete any rule from the Rules tab
+- **Custom categories** — not just the 13 built-ins: create your own (e.g. "Job Search"), assign domains to it, and its tabs group under it with a stable color. Add one inline while creating a rule, or manage them (add / rename / delete) in the Categories card. Renaming a category updates every rule using it; deleting it moves those rules to "Other"
 - **Sort** by domain (A–Z / Z–A) or category (A–Z / Z–A)
 - **Filter** the table by any single category
 - **Search** by domain name
