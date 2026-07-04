@@ -12,7 +12,7 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 <br/>
 
-[![Version](https://img.shields.io/badge/version-0.6.1-6366f1?style=flat-square)](https://github.com/rocke3/TabAutopilot/releases)
+[![Version](https://img.shields.io/badge/version-0.7.1-6366f1?style=flat-square)](https://github.com/rocke3/TabAutopilot/releases)
 [![Chrome](https://img.shields.io/badge/Chrome-120%2B-34a853?style=flat-square&logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom)
 [![Rating](https://img.shields.io/badge/rating-★_5.0%2F5-f59e0b?style=flat-square)](https://chromewebstore.google.com/detail/nplekjmldglpfcdiechmgahoefhfheom)
 [![Users](https://img.shields.io/badge/privacy-100%25_on--device-8b5cf6?style=flat-square)](#privacy)
@@ -26,7 +26,11 @@ snoozes tabs for later, hibernates inactive tabs, closes duplicates, and restore
 
 <br/><br/>
 
-`Smart Grouping` · `Tab Snooze` · `Hibernation` · `250+ Rules` · `Auto-Learning` · `Workspaces` · `Free`
+<img src="public/launch-hero.gif" width="720" alt="TabAutopilot in action — auto-grouping Chrome tabs by topic" />
+
+<br/><br/>
+
+`Smart Grouping` · `Tab Snooze` · `Hibernation` · `350+ Rules` · `Auto-Learning` · `Workspaces` · `Usage Stats` · `Clear Site Data` · `Free`
 
 </div>
 
@@ -88,18 +92,20 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 ## Features at a glance
 
-| Feature                     | What it does                                                         |
-| --------------------------- | -------------------------------------------------------------------- |
-| **AI Tab Grouping**         | Auto-groups tabs by topic using on-device AI — not just by domain    |
-| **Instant Tab Joining**     | New tabs snap into matching tab groups automatically, no waiting     |
-| **Domain Rules Editor**     | 250+ built-in rules you can add to, edit, filter, sort, or reset     |
-| **Auto-Learning (opt-in)**  | Learns from your manual moves and gets smarter over time             |
-| **Tab Snooze**              | Close a tab now, it reopens automatically later                      |
-| **Tab Hibernation**         | Suspends inactive tabs to cut Chrome memory usage by up to 95%       |
-| **Duplicate Tab Closer**    | Finds and closes duplicate tabs in one click                         |
-| **Session Manager**         | Save, restore, and switch workspaces; crash recovery built in        |
-| **Glass UI**                | Modern glassmorphism design with frosted cards and ambient glow      |
-| **100% Private**            | Everything runs on your device. Zero data leaves your browser        |
+| Feature                    | What it does                                                      |
+| -------------------------- | ----------------------------------------------------------------- |
+| **AI Tab Grouping**        | Auto-groups tabs by topic using on-device AI — not just by domain |
+| **Instant Tab Joining**    | New tabs snap into matching tab groups automatically, no waiting  |
+| **Domain Rules Editor**    | 350+ built-in rules you can add to, edit, filter, sort, or reset  |
+| **Auto-Learning (opt-in)** | Learns from your manual moves and gets smarter over time          |
+| **Tab Snooze**             | Close a tab now, it reopens automatically later                   |
+| **Tab Hibernation**        | Suspends inactive tabs to cut Chrome memory usage by up to 95%    |
+| **Duplicate Tab Closer**   | Finds and closes duplicate tabs in one click                      |
+| **Session Manager**        | Save, restore, and switch workspaces; crash recovery built in     |
+| **Usage Stats**            | On-device dashboard of browse time, top sites, and peak hours     |
+| **Clear Site Data**        | Wipe a site's cache, cookies, or history without leaving the tab  |
+| **Glass UI**               | Modern glassmorphism design with frosted cards and ambient glow   |
+| **100% Private**           | Everything runs on your device. Zero data leaves your browser     |
 
 ---
 
@@ -122,7 +128,7 @@ No account. No server. No tracking. All AI runs on your device via Chrome's buil
 
 ![Domain rules editor for tab grouping](public/Screenshot3.png)
 
-- **250+ built-in rules** — curated domain-to-category mappings covering Development, Social, Work, Shopping, News, Entertainment, Finance, Education, Research, Reference, Travel, and Health
+- **350+ built-in rules** — curated domain-to-category mappings covering Development, Social, Work, Shopping, News, Entertainment, Finance, Education, Research, Reference, Travel, and Health
 - **Editable from the sidepanel** — add, edit, or delete any rule from the Rules tab
 - **Sort** by domain (A–Z / Z–A) or category (A–Z / Z–A)
 - **Filter** the table by any single category
@@ -203,6 +209,7 @@ Each Chrome tab eats 50–300 MB of RAM. TabAutopilot works as a modern tab susp
 - **Theme** — system, light, or dark mode with glassmorphism UI
 - **Import/Export** — backup and restore all settings as JSON
 - **Learn from activity** — opt-in toggle in the Rules tab
+- **Track usage stats** — on-device browse-time tracking for the Usage stats dashboard; toggle off anytime
 
 ---
 
@@ -212,18 +219,42 @@ Each Chrome tab eats 50–300 MB of RAM. TabAutopilot works as a modern tab susp
 
 ---
 
+## Usage stats — see where your time goes
+
+A private, on-device dashboard in the Workspaces view that turns your browsing into insight — no data ever leaves your browser.
+
+- **Browse time** — total active time across the period
+- **Top websites** — your most-used sites ranked by active time, not just tab count
+- **Peak hour** — the hour of day you browse most
+- **Activity by hour** — a 24-bar chart of when you're active, with your peak hour highlighted
+- **Time by category** — how your time splits across Development, Work, Social, Media, and more
+- **Today / 7-day / 30-day views** — switch the period with one tap
+- **Domain only** — records registrable domains (github.com), never full URLs or page titles
+- **Full control** — turn tracking off in Settings, or clear your history anytime from the dashboard
+
+---
+
+## Clear site data — cache, cookies & history
+
+Wipe a site's stored data without digging through Chrome settings.
+
+- **Per-tab actions** — from a tab's menu, clear that site's cache, cookies & session, or browsing history
+- **Right-click page menu** — "Clear cache for this site" and "Clear cookies & session for this site", plus all-sites variants
+- **Global wipe** — Clear all cache / all cookies buttons in the sidepanel
+- **Origin-scoped** — per-site actions only touch that tab's origin
+- **Safe by default** — cookie/session clearing asks for confirmation first
+
+---
+
 ## More features
 
 ### Activity dashboard
 
-Located in the Workspaces view.
+Located in the Workspaces view, alongside the [Usage stats dashboard](#usage-stats--see-where-your-time-goes).
 
 - **Memory stats** — see hibernated tab count and estimated memory saved (MB/GB)
 - **30-day history chart** — daily memory savings visualized as a bar chart
-- **Top domains** — bar chart of your most-visited domains by tab count
-- **Category breakdown** — colored pills showing tab distribution (Development, Work, Social, etc.)
-- **Quick stats** — open tabs, unique domains, average activity score at a glance
-- **Activity levels** — bar chart showing High/Medium/Low/Idle tab distribution
+- **Current-tabs snapshot** — for the tabs open right now: top domains by tab count, a category breakdown as colored pills, quick stats (open tabs, unique domains, average activity score), and a High/Medium/Low/Idle activity-level chart
 
 ### Tab search & sorting
 
@@ -273,19 +304,19 @@ Right-click any page for quick actions:
 
 ## TabAutopilot vs other tab managers
 
-| | TabAutopilot | OneTab | Workona | Toby | Session Buddy |
-|---|---|---|---|---|---|
-| Auto-group tabs by topic (AI) | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Native Chrome tab groups | ✅ | ❌ flat list | ❌ own UI | ❌ own UI | ❌ |
-| Learns from your corrections | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Tab snooze | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Tab suspender / hibernation | ✅ | ❌ | ✅ | ❌ | ❌ |
-| Duplicate tab closer | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Session manager / workspaces | ✅ unlimited | partial | ⚠️ 5 free | ✅ | ✅ |
-| Crash recovery | ✅ | ❌ | ✅ | ❌ | ✅ |
-| Works without an account | ✅ | ✅ | ❌ | ❌ | ✅ |
-| On-device AI (no cloud) | ✅ | — | — | — | — |
-| Free, all features | ✅ | ✅ | ❌ | ❌ | ✅ |
+|                               | TabAutopilot | OneTab       | Workona   | Toby      | Session Buddy |
+| ----------------------------- | ------------ | ------------ | --------- | --------- | ------------- |
+| Auto-group tabs by topic (AI) | ✅           | ❌           | ❌        | ❌        | ❌            |
+| Native Chrome tab groups      | ✅           | ❌ flat list | ❌ own UI | ❌ own UI | ❌            |
+| Learns from your corrections  | ✅           | ❌           | ❌        | ❌        | ❌            |
+| Tab snooze                    | ✅           | ❌           | ❌        | ❌        | ❌            |
+| Tab suspender / hibernation   | ✅           | ❌           | ✅        | ❌        | ❌            |
+| Duplicate tab closer          | ✅           | ✅           | ❌        | ❌        | ❌            |
+| Session manager / workspaces  | ✅ unlimited | partial      | ⚠️ 5 free | ✅        | ✅            |
+| Crash recovery                | ✅           | ❌           | ✅        | ❌        | ✅            |
+| Works without an account      | ✅           | ✅           | ❌        | ❌        | ✅            |
+| On-device AI (no cloud)       | ✅           | —            | —         | —         | —             |
+| Free, all features            | ✅           | ✅           | ❌        | ❌        | ✅            |
 
 - **OneTab alternative** — TabAutopilot keeps tabs in the tab bar as native Chrome tab groups instead of dumping them into a flat list
 - **Workona free alternative** — unlimited workspaces, no account, no 5-workspace limit
@@ -304,7 +335,7 @@ Install TabAutopilot and press `Alt+G` (or click "Smart Group" in the side panel
 No. Categorization runs entirely on your device — Chrome's built-in Gemini Nano handles the AI, and a local rule engine covers everything else. The extension makes zero network calls with your data. There is no account, no analytics, and no tracking.
 
 **Does it work without AI?**
-Yes. On Chrome versions without Gemini Nano (or unsupported hardware), TabAutopilot falls back to its rule-based engine with 250+ domain rules — grouping still works out of the box.
+Yes. On Chrome versions without Gemini Nano (or unsupported hardware), TabAutopilot falls back to its rule-based engine with 350+ domain rules — grouping still works out of the box.
 
 **How does the tab suspender differ from Chrome's Memory Saver?**
 Chrome's Memory Saver decides for you. TabAutopilot lets you set the timeout (15 min–2 hr), never touches pinned or audio-playing tabs, shows how much memory you saved, and pairs hibernation with grouping, snooze, and sessions.
