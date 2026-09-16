@@ -1,7 +1,7 @@
 {
   "name": "tab-autopilot",
   "version": "0.8.7",
-  "description": "TabAutopilot (Tab Autopilot) — smart tab manager for Chrome and Firefox: auto-group tabs into native tab groups by topic, snooze tabs for later, hibernate inactive tabs to free memory, close duplicate tabs and save sessions as workspaces. 100% on-device.",
+  "description": "TabAutopilot (Tab Autopilot) \u2014 smart tab manager for Chrome and Firefox: auto-group tabs into native tab groups by topic, snooze tabs for later, hibernate inactive tabs to free memory, close duplicate tabs and save sessions as workspaces. 100% on-device.",
   "author": {
     "name": "Mamunur Rashid",
     "email": "mail@mdrashid.com",
